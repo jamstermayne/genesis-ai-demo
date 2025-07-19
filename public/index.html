@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🧠</text></svg>" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#1f2937" />
+    <meta name="description" content="Genesis AI - The Only Gaming Fund That Both Makes Games AND Predicts Them. $60M Series A Investment Opportunity." />
+    <meta property="og:title" content="Genesis AI - Hybrid Dominance Gaming Fund" />
+    <meta property="og:description" content="Traditional gaming expertise + AI prediction = Unstoppable combination. 127% IRR proven track record." />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Genesis AI - Gaming Investment Fund" />
+    <meta name="twitter:description" content="The only fund that both makes games AND predicts them. $60M opportunity." />
+    
+    <title>Genesis AI - Gaming Investment Fund Demo</title>
+    
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Custom styles for gradients and animations -->
+    <style>
+      body {
+        margin: 0;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+          'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+          sans-serif;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        background: #111827;
+        color: white;
+      }
+      
+      * {
+        box-sizing: border-box;
+      }
+      
+      /* Custom scrollbar */
+      ::-webkit-scrollbar {
+        width: 8px;
+      }
+      
+      ::-webkit-scrollbar-track {
+        background: #374151;
+      }
+      
+      ::-webkit-scrollbar-thumb {
+        background: #6b7280;
+        border-radius: 4px;
+      }
+      
+      ::-webkit-scrollbar-thumb:hover {
+        background: #9ca3af;
+      }
+      
+      /* Loading animation */
+      .loading {
+        animation: pulse 2s infinite;
+      }
+      
+      @keyframes pulse {
+        0%, 100% { opacity: 1; }
+        50% { opacity: 0.5; }
+      }
+    </style>
+  </head>
+  <body>
+    <noscript>You need to enable JavaScript to run Genesis AI demo.</noscript>
+    <div id="root">
+      <!-- Loading state -->
+      <div class="flex items-center justify-center h-screen bg-gray-900">
+        <div class="text-center">
+          <div class="w-16 h-16 bg-gradient-to-r from-purple-500 to-pink-500 rounded-xl flex items-center justify-center mx-auto mb-4 loading">
+            <span class="text-2xl">🧠</span>
+          </div>
+          <p class="text-gray-400">Loading Genesis AI...</p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
