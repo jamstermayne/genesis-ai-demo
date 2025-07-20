@@ -1,0 +1,7 @@
+runConfig:
+  cpu: 1
+  memory: 1
+  build:
+    commands:
+      - npm install --legacy-peer-deps
+      - npm run build
