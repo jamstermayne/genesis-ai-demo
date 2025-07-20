@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import App from './App';
+import App from './App.jsx';
 
 // Performance monitoring (optional)
 import { getCLS, getFID, getFCP, getLCP, getTTFB } from 'web-vitals';
